@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #EEF0F4;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.shopping-bag-img {
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+#input-field {
+    height: 70px;
+    width: 80vw;
+    border-radius: 15px;
+    background-color: #DCE1EB;
+    color: rgb(67, 32, 0);
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#add-button {
+    height: 70px;
+    width: 80vw;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    color: rgb(253, 253, 253, .5);
+    background-color: rgb(172, 72, 90);
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    
+}
