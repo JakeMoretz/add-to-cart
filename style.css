@@ -12,7 +12,6 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
-    border: 1px solid red;
     width: 100%;
 }
 
@@ -23,7 +22,7 @@ body {
 
 #input-field {
     height: 70px;
-    width: 80vw;
+    width: 90vw;
     border-radius: 15px;
     background-color: #DCE1EB;
     color: rgb(67, 32, 0);
@@ -35,7 +34,7 @@ body {
 
 #add-button {
     height: 70px;
-    width: 80vw;
+    width: 90vw;
     border-radius: 15px;
     border: none;
     text-align: center;
@@ -44,5 +43,39 @@ body {
     margin-top: 20px;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
-    
+    cursor: pointer;
+}
+
+#add-button:hover{
+    background-color: #432000;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 20px;
+    padding-inline: 30px;
+    margin-top: 30px;
+}
+
+ul li {
+    /* list-style: none; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding-inline: 30px;
+    color: rgb(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #FFECC7;
 }
