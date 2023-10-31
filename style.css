@@ -2,7 +2,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #EEF0F4;
+    background-color: #0e0c12;
     font-family: 'Rubik', sans-serif;
     user-select: none;
 }
@@ -12,24 +12,25 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .shopping-bag-img {
     height: 150px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #input-field {
-    height: 60px;
-    width: 90vw;
+    height: 50px;
+    width: 83vw;
     border-radius: 15px;
-    background-color: #DCE1EB;
+    background-color: #dce1eb;
     color: rgb(67, 32, 0);
     border: none;
     text-align: center;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
+    margin-inline: 10px;
 }
 
 #add-button {
@@ -38,16 +39,12 @@ body {
     border-radius: 15px;
     border: none;
     text-align: center;
-    color: rgb(253, 253, 253, .5);
-    background-color: rgb(172, 72, 90);
+    color: white;
+    background-color: #313131;
     margin-top: 20px;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
     cursor: pointer;
-}
-
-#add-button:hover{
-    background-color: #432000;
 }
 
 ul {
@@ -68,13 +65,14 @@ ul li {
     flex-grow: 1;
     font-size: 30px;
     border-radius: 15px;
-    background-color: #FFFDF8;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fbf7f1;
+    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.2);
     padding-inline: 30px;
-    color: rgb(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
-ul li:hover {
-    background-color: #FFECC7;
+p {
+    color: rgb(213, 212, 212);
+    font-size: 20px;
 }

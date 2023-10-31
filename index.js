@@ -32,7 +32,7 @@ onValue(shoppingListInDb, function (snapshot) {
             addItem(currentItem);
         }
     } else {
-        shoppingList.innerHTML = 'No items here yet...';
+        shoppingList.innerHTML = `<p>No items here yet...</p>`;
     }
 });
 
