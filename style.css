@@ -40,7 +40,7 @@ body {
     border: none;
     text-align: center;
     color: white;
-    background-color: #313131;
+    background-color: #479074;
     margin-top: 20px;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
@@ -58,14 +58,14 @@ ul {
 }
 
 ul li {
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
     font-size: 30px;
     border-radius: 15px;
-    background-color: #fbf7f1;
+    background-color: #e8fcf3;
     box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.2);
     padding-inline: 30px;
     color: rgb(0, 0, 0);
